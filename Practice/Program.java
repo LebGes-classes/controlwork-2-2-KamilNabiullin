@@ -13,7 +13,7 @@ public class Program {
 
     }
 
-    public String getName() {
+    public String getTitle() {
         return name;
     }
 
@@ -21,11 +21,11 @@ public class Program {
         this.name = name;
     }
 
-    public String getChanel() {
+    public String getChannel() {
         return chanel;
     }
 
-    public void setChanel(String chanel) {
+    public void setChannel(String chanel) {
         this.chanel = chanel;
     }
 
@@ -36,6 +36,8 @@ public class Program {
     public void setBroadcastsTime(BroadcastsTime broadcastsTime) {
         this.broadcastsTime = broadcastsTime;
     }
-
+    public String getTime(){
+        return broadcastsTime.time;
+    }
 
 }
